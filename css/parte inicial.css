@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@665&family=Inconsolata:wght@200..900&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+Body{
+    background-image: url(../fotos/coracao2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #f72525;
+    margin-top: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    color: #fffefe;
+
+}
+
+h3
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+p{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: #fffefe;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    margin-top: 5px;
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width: 768px){
+    img {
+        width: 95vw;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+
+    }
+
+    .contagem {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contagem span {
+        font-size: 1.5rem;
+    }
+}
+
